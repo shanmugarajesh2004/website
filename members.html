@@ -62,7 +62,7 @@ background-color:aqua;
                             <a class="btn btn-success text-white nav-link dropdown-toggle " id="mynav" role="button" data-toggle="dropdown" href="#">Register</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown ">
                             <a href="members.html" class="dropdown-item active">Members</a>
-                            <a href="" class="dropdown-item ">Tutorial Requast</a>
+                            <a href="tutorial.html" class="dropdown-item ">Tutorial Requast</a>
                             
                         </div>
                         </li>
@@ -123,7 +123,10 @@ background-color:aqua;
                                     <div class="form-group text-center mt-3">
                                         <div class="form-check ">
                                             <input type="checkbox" class="check">
-                                            <label for="agreement" class="form-check-label">I agree with terms and contions</label>
+                                            <label for="agreement" class="form-check-label">T agree to <a type="link" href="" class="" data-toggle="modal" data-target="#show">
+                                                 terms and contions
+                                              </a>
+                                              </label>
                                         </div>
                                     </div>
                                     <div class="form-group text-center">
@@ -151,8 +154,25 @@ background-color:aqua;
 
 
 
-  
-
+            <div class="modal fade"  data-backdrop="static" id="show" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="show">Terms and contions</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        Terms of Service set the way in which your product , service or content may be used, in a legally binding way. They are crucial for protecting your content from a copyright perspective as well as for protecting you from potential liabilities.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
 
 
